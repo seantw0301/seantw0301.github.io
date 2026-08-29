@@ -1,0 +1,21 @@
+<div class="site-head">
+  <header class="brand">
+    <a class="brand-logo" href="{{ '/' | relative_url }}"><img src="{{ '/assets/images/logo.png' | relative_url }}" alt="AiCert" width="256" height="256" /></a>
+    <div>
+      <h1>AiCert</h1>
+      <p class="muted">{{ site.tagline }}</p>
+    </div>
+  </header>
+  <nav class="tabs">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>文章</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>關於</a>
+    <a href="{{ '/2026/08/30/aws-aif-c01/' | relative_url }}">AIF-C01</a>
+    <a href="{{ '/support/' | relative_url }}"{% if page.url == '/support/' %} class="active"{% endif %}>支援</a>
+    <a href="{{ site.official_site }}/login.html">登入</a>
+  </nav>
+  <nav class="tabs sub">
+    <a href="{{ '/privacy/' | relative_url }}">隱私權政策</a>
+    <a href="{{ '/terms/' | relative_url }}">服務條款</a>
+    <a href="{{ '/account-deletion/' | relative_url }}">帳號刪除</a>
+  </nav>
+</div>

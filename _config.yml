@@ -1,0 +1,37 @@
+title: AiCert
+tagline: AI 雲端證照日課：走路聽課、打卡複習、考前模擬。
+description: >-
+  張正源的 AI 架構師學習筆記。14 天語音備考 App：Microsoft Azure AI Fundamentals（AI-901）
+  與 AWS Certified AI Practitioner（AIF-C01）。
+url: https://seantw0301.github.io
+baseurl: ""
+lang: zh-Hant
+timezone: Asia/Taipei
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:year/:month/:day/:title/
+author:
+  name: ChengYuan Chang
+  email: admin@jxdtw.com
+official_site: https://www.jxdtw.com/aicert
+play_aifc01: https://play.google.com/store/apps/details?id=com.jxdtw.aifc01
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

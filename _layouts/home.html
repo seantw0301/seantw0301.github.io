@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="layout">
+  <main class="article">
+    {{ content }}
+    <h2>文章</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.excerpt %}<p class="muted">{{ post.excerpt | strip_html | truncate: 120 }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </main>
+  <aside class="side">
+    <a class="cert-tile aifc01" href="{{ '/2026/08/30/aws-aif-c01/' | relative_url }}">AIF-C01<small>AWS AI Practitioner · 14 天 936 分</small></a>
+    <a class="cert-tile ai901" href="{{ '/2026/08/30/ai-architect-path/' | relative_url }}">AI-901<small>Microsoft Azure AI Fundamentals · 即將推出</small></a>
+    <a class="cert-tile more" href="{{ site.official_site }}/aifc01/buy.html">官網購買<small>登入與綠界付款在 www.jxdtw.com/aicert</small></a>
+  </aside>
+</div>
