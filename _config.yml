@@ -14,7 +14,7 @@ permalink: /:year/:month/:day/:title/
 author:
   name: ChengYuan Chang
   email: admin@jxdtw.com
-official_site: https://www.jxdtw.com/aicert
+official_site: https://www.aicert-edu.com
 play_aifc01: https://play.google.com/store/apps/details?id=com.jxdtw.aifc01
 plugins:
   - jekyll-feed

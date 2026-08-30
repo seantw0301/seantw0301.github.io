@@ -6,7 +6,7 @@ permalink: /privacy/
 
 最後更新：2026-08-30
 
-本政策由開發者 **ChengYuan Chang（JiXingDa Company Taiwan）** 發布（Email：[admin@jxdtw.com](mailto:admin@jxdtw.com)，備用：[seantw1974@gmail.com](mailto:seantw1974@gmail.com)），適用於 Google Play 與 App Store 上的下列 App，以及官網 [www.jxdtw.com/aicert]({{ site.official_site }}) 與本站 seantw0301.github.io：
+本政策由開發者 **ChengYuan Chang（JiXingDa Company Taiwan）** 發布（Email：[admin@jxdtw.com](mailto:admin@jxdtw.com)，備用：[seantw1974@gmail.com](mailto:seantw1974@gmail.com)），適用於 Google Play 與 App Store 上的下列 App，以及官網 [www.aicert-edu.com]({{ site.official_site }}) 與本站 seantw0301.github.io：
 
 - **AiCert：AI-901**（Android 套件名稱：`com.jxdtw.ai901`）
 - **AiCert：AIF-C01**（Android 套件名稱：`com.jxdtw.aifc01`）
